@@ -1,0 +1,30 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+selene = "*"
+pytest = "*"
+pyhamcrest = "*"
+pytest-env = "*"
+testcontainers = "*"
+allure-pytest = "*"
+allure-python-commons = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
+
+
+[pipenv]
+
+allow_prereleases = true
